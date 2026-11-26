@@ -51,9 +51,7 @@ class program
         */
         while (dryck < 0 || dryck > 5)
             {
-                Console.WriteLine("ogiltigt antal!");
-                Console.WriteLine("Du måste välja ett antal mellan 0-5!");
-                Console.WriteLine("Välj ett nytt antal");
+                Console.WriteLine("ogiltigt antal! \nDu måste välja ett antal mellan 0-5!\nVälj ett nytt antal");
 
                 dryck = int.Parse(Console.ReadLine());
             }
